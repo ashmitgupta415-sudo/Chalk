@@ -71,7 +71,7 @@ Open **http://localhost:3000**. You don't need any accounts or API keys:
 | Command | What it does |
 |---|---|
 | `npm run setup` | First-time setup. Running it again resets your data to the fake data. |
-| `npm run dev` | Starts Chalk and restarts it when you save |
+| `npm run dev` | Starts Chalk and restarts the server when server files change |
 | `npm test` | Runs the tests (needs the database from `npm run setup`) |
 | `npm run lint` | Checks the code and the themes for mistakes |
 | `npm run db:update` | After pulling new code: adds any new tables to your database (keeps your data) |
